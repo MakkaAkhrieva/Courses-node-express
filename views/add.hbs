@@ -1,0 +1,18 @@
+<h1>Add course</h1>
+
+<form action="/add" method="post">
+    <div class="input-field">
+        <input  id="title" name="title" type="text" class="validate" required>
+        <label for="title">Course name</label>
+        <span class="helper-text" data-error="Add course name" required ></span>
+    </div>
+    <div class="input-field">
+        <input  id="price" name="price" type="text" class="validate">
+        <label for="price">Price</label>
+        <span class="helper-text" data-error="Add price" ></span>
+
+    </div>
+    <button class="btn btn-primary orange darken-4 ">
+        Add course
+    </button>
+</form>
